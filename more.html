@@ -1,0 +1,146 @@
+<!-- /*index는 맨 처음에 열릴화면 == 채팅목록*/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/350b92caa0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>More | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">21:04</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">
+          80%
+        </span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <!-- // -->
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">More</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <a href="setting.html">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+    <!--  -->
+    <main class="more">
+      <header class="moer__header">
+        <div class="friends__friend friend friend--large">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend" />
+            <div class="friend__content">
+              <span class="frined__name">
+                남기석
+              </span>
+              <span class="friend__status">
+                kisa0828@naver.com
+              </span>
+            </div>
+          </div>
+          <!-- 친구 목록은 2개의 div column으로 나눈데 왜냐면 기존에 정리해둔 사진,이름,상태메세지에다가
+          친구리스트에서는 재생목록이 있는 걸 추가하기위해서 -->
+          <div class="friend__column">
+            <i class="far fa-comment-alt fa-2x"></i>
+          </div>
+        </div>
+        <ul class="more__btn-list">
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="far fa-smile fa-2x"></i>
+            </span>
+            <span class="more__btn-title">Emoticons</span>
+          </li>
+
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="fas fa-brush fa-2x"></i>
+            </span>
+            <span class="more__btn-title">Themes</span>
+          </li>
+
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="fab fa-kickstarter-k fa-2x"></i>
+            </span>
+            <span class="more__btn-title">Account</span>
+          </li>
+        </ul>
+      </header>
+
+      <section class="more__suggestions">
+        <h5 class="more__title">Suggestions</h5>
+        <ul class="more__suggestions-list">
+          <li class="more__suggestion suggestion">
+            <span class="suiggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kakao Story</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suiggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kakao Friends</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suiggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Firends Gem</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- // -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <!-- 리스트를 만들기위해 ul -->
+        <li class="nav__list-item">
+          <!-- li는 사람모양을 누르면 친구목록으로 이동할 수 있게끔 다 링크해주기 위해 link -->
+          <a href="friends-list.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- // -->
+  </body>
+</html>
