@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "status-bar.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "header.css";
+body {
+  background-color: white;
+  padding: 10px 20px; /*위아래 10px 좌우 20정도*/
+  columns: #020202;
+  font-family: "Open sans";
+}
+a {
+  color: inherit;
+}
