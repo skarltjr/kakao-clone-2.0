@@ -15,3 +15,21 @@
 .nav i {
   font-size: 20px;
 }
+.nav .nav__list-link {
+  position: relative;
+  /* 중요한 부분 ★ 부모가 될 부분은 body가 아니라 채팅 아이콘 */
+}
+.nav .nav__badge {
+  position: absolute;
+  top: -9px;
+  right: -8px;
+  color: white;
+  background-color: #dc5d46;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 13px;
+}
