@@ -8,7 +8,7 @@
   border-radius: 38%;
 }
 .friend__avatar.g-avatar {
-  width: 70px;
+  width: 65px;
 }
 .friend__avatar.m-avatar {
   width: 60px;
@@ -36,4 +36,25 @@
 .friend__content .friend__status,
 .friend .chat__timestamp {
   font-size: 12px;
+}
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #3bb95a;
+  font-size: 14px;
+  /* opacity: 0.7; 이렇게 했더니 border에도 opacity적용되니까 text에만 적용하도록 하자*/
+}
+.friend .friend__now-listening span {
+  opacity: 0.7;
+}
+.friend .friend__now-listening i {
+  font-size: 12px;
+}
+.friend__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeded;
+  padding: 10px 12px;
+  border-radius: 5px;
 }
