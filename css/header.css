@@ -3,13 +3,13 @@
   justify-content: space-between;
   margin-bottom: 30px;
   align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .header .header__title {
   font-size: 24px;
   font-weight: 600;
 }
-.header i {
+.header .header__icon {
   font-size: 20px;
   margin-left: 20px;
   cursor: pointer;

@@ -10,7 +10,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">21:04</span>
@@ -40,10 +40,10 @@
         <span class="header__icon">
           <!-- div는 기본적으로 display:block을 내포해서 레이아웃 망가질 수 span은 inline -->
           <i class="fas fa-bars"></i>
-        </ㄴ>
+        </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Sunday,July 5,2020
@@ -57,19 +57,18 @@
               Let's make it
             </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
 
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
             <div class="message__bubble">
-              네~
+              이건 답장이에요~ 다아압~자아앙~
             </div>
           </div>
         </li>
-
-        <div class="chat__wrtie">
+      </main>
+        <div class="chat__write">
           <div class="chat__write-column">
             <i class="far fa-plus-square"></i>
           </div>
@@ -93,7 +92,6 @@
           </div>
         </div>
       </ul>
-    </main>
     <!-- // -->
   </body>
 </html>

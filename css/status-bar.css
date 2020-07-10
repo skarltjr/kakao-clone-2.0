@@ -3,8 +3,11 @@
   justify-content: space-between;
   margin-bottom: 30px;
   opacity: 0.7;
-  position: fixed;
+  /* position: fixed;
   width: 100%;
+  height: 100%;
+  padding-bottom: 300px; */
+
   /* fixed로 포지션해줬으니 당연히 width생각 */
   /* opacity로 색의 70%정도만 주도록 */
 }
