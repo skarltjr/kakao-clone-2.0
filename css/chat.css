@@ -1,5 +1,6 @@
 .header-wrapper {
   background-color: white;
+  z-index: 2; /*layer의 순서로 문제가 발생했을 때*/
   padding: 5px 0px;
   position: fixed;
   top: 0px;
@@ -133,12 +134,24 @@ html에서 input 옆에 아이콘을 둬야하는 이유가 바로 이를 이용
 /* .message .message__content {
   width: 80%;
 } */
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
 .incoming-message img {
   width: 40px;
   height: 50px;
   border-radius: 15px;
   margin-right: 15px;
+  animation: spin 5s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 3px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
 }
+
 .incoming-message {
   align-self: flex-start;
 }
